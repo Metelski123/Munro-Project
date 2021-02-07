@@ -1,12 +1,11 @@
-DROP TABLE munros;
+DROP TABLE bags;
 DROP TABLE climbers;
-DROP TABLE locations;
+DROP TABLE munros;
 
 CREATE TABLE munros (
   id SERIAL PRIMARY KEY,
   name VARCHAR(255),
   height INT,
-  duration float
 );
 
 CREATE TABLE climbers (
@@ -14,9 +13,9 @@ CREATE TABLE climbers (
   name VARCHAR(255),
 );
 
-CREATE TABLE locations (
+CREATE TABLE bags (
   id SERIAL PRIMARY KEY,
-  user_id INT REFERENCES users(id) ON DELETE CASCADE,
-  location_id INT REFERENCES locations(id) ON DELETE CASCADE,
+  climber_id INT REFERENCES climbers(id) ON DELETE CASCADE,
+  munro_id INT REFERENCES munros(id) ON DELETE CASCADE,
   review TEXT
 );
