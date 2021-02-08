@@ -12,7 +12,7 @@ munro_repository.delete_all()
 climber_repository.delete_all()
 
 climber1 = Climber('Janek Metelski')
-user_repository.save(user1)
+climber_repository.save(climber1)
 
 climber2 = Climber('Jessica Metelski')
 climber_repository.save(climber2)
