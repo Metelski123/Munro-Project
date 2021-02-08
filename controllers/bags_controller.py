@@ -9,19 +9,17 @@ bags_blueprint = Blueprint("bags", __name__)
 
 @bags_blueprint.route("/bags")
 def bags():
-    bags = bag_repository.select_all() # NEW
+    bags = bag_repository.select_all()
     return render_template("bags/index.html", bags = bags)
 
-# NEW
-# GET '/bags/new'
+
 @bags_blueprint.route("/bags/new", methods=['GET'])
 def new_task():
     climbers = climber_repository.select_all()
     munros = munro_repository.select_all()
     return render_template("bags/new.html", climbers = climbers, munros = munros)
 
-# CREATE
-# POST '/visits'
+
 @bags_blueprint.route("/bags",  methods=['POST'])
 def create_task():
     climber_id = request.form['climber_id']
@@ -34,8 +32,6 @@ def create_task():
     return redirect('/bags')
 
 
-# DELETE
-# DELETE '/visits/<id>'
 @bags_blueprint.route("/bags/<id>/delete", methods=['POST'])
 def delete_task(id):
     bag_repository.delete(id)

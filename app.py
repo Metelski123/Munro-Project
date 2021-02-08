@@ -1,8 +1,8 @@
 from flask import Flask, render_template
 
-from controllers.bag_controller import bags_blueprint
-from controllers.munro_controller import munros_blueprint
-from controllers.climber_controller import climbers_blueprint
+from controllers.bags_controller import bags_blueprint
+from controllers.munros_controller import munros_blueprint
+from controllers.climbers_controller import climbers_blueprint
 
 app = Flask(__name__)
 

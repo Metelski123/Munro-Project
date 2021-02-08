@@ -4,7 +4,7 @@ import repositories.climber_repository as climber_repository
 import repositories.munro_repository as munro_repository
 
 def save(bag):
-    sql = "INSERT INTO bags ( climber_id, munro_id, review ) VALUES ( %s, %s, %s ) RETURNING id"
+    sql = "INSERT INTO bags ( climber_id, munro_id) VALUES ( %s, %s, %s ) RETURNING id"
     values = [bag.climber.id, bag.munro.id, bag.review]
     results = run_sql( sql, values )
     bag.id = results[0]['id']
@@ -20,7 +20,7 @@ def select_all():
     for row in results:
         climber = climber_repository.select(row['climber_id'])
         munro = munro_repository.select(row['munro_id'])
-        bag = Bag(climber, munro, row['review'], row['id'])
+        bag = Bag(climber, munro, row['id'])
         bags.append(bag)
     return bags
 

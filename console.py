@@ -17,7 +17,7 @@ climber_repository.save(climber1)
 climber2 = Climber('Jessica Metelski')
 climber_repository.save(climber2)
 
-climber3 = Climber('Jimmy Saville')
+climber3 = Climber('John Candy')
 climber_repository.save(climber3)
 
 munro1 = Munro('Ben Nevis', 1345)
@@ -396,7 +396,7 @@ munro125 = Munro('Maoile Lunndaidh', 1007)
 munro_repository.save(munro125)
 
 munro126 = Munro('An Sgarsoch', 1006)
-munro_repository.save(munro127)
+munro_repository.save(munro126)
 
 munro127 = Munro('Carn Liath - Creag Meagaidh', 1006)
 munro_repository.save(munro127)
