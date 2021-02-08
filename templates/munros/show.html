@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1> {{munro.name}} </h1>
+
+<p>Category: {{ munro.height }}</p>
+
+<h3>Bagged by:</h3>
+
+<ul>
+    {% for climber in climbers  %}
+    <li>{{climber.name}}</li>
+    {% endfor %}
+</ul>
+
+{% endblock %}

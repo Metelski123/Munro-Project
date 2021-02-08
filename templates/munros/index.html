@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Munros</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th></th>
+    <th>Height</th>
+  </tr>
+  {% for munro in munros %}
+  <tr>
+    <td><a href="/munros/{{ munro.id }}"> {{munro.name}} </a></td>
+    <td>|</td>
+    <td>{{ munro.height }}</td>
+  </tr>
+  {% endfor %}
+</table>
+{% endblock %}

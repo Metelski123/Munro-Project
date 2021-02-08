@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Bags</h1>
+
+<p class="btn--wrapper">
+  <a class="btn btn--action" href="/bags/new">New bag</a>
+</p>
+
+<ul>
+  {% for bag in bags %}
+  <li>
+  <p>{{ bag.climber.name }} - {{ bag.munro.name }} </p>
+  <p>"<i>{{bag.review}}</i>"</p>
+    <p>
+      <form action="/bags/{{ bag.id }}/delete" method="POST">
+        <input class="btn btn--danger" type="submit" value="delete" />
+      </form>
+    </p>
+  </li>
+  {% endfor %}
+</ul>
+
+
+{% endblock %}

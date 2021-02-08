@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Add a munro</h1>
+
+<form action="/bags" method="post">
+  <label for="climber">Select a climber:</label>
+    <select name="climber_id" id="climber">
+      {% for climber in climbers %}
+      <option value="{{ climber.id }}">{{ climber.name }}</option>
+      {% endfor %}
+    </select>
+  
+  <label for="munro">Select a munro:</label>
+    <select name="munro_id" id="munro">
+      {% for munro in munros %}
+      <option value="{{ munro.id }}">{{ munro.name }}</option>
+      {% endfor %}
+    </select>
+  
+
+  <label for="review">Add a Review</label>
+  <textarea name="review" id="review" cols="30" rows="10"></textarea>
+  <input class="btn btn--action" type='submit' value="Bag">
+</form>
+
+{% endblock %}

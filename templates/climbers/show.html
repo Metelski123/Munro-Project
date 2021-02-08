@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1> {{climber.name}} </h1>
+
+<h3>Bagged Munros:</h3>
+
+<ul>
+    {% for munro in munros  %}
+    <li>{{munro.name}}</li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
