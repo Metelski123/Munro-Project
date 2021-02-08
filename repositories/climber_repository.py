@@ -39,12 +39,12 @@ def delete_all():
 def munros(climber):
     munros = []
 
-    sql = SELECT "munros.* FROM munros INNER JOIN bags ON bags.munro_id = munros.id WHERE climber_id = %s;"
+    sql = "SELECT munros.* FROM munros INNER JOIN bags ON bags.munro_id = munros.id WHERE climber_id = %s;"
     values = [climber.id]
-    result = run_sql(sql, values)
+    results = run_sql(sql, values)
 
     for row in results:
-        munro = munros(row['name'], row['height'], row['id'])
-        locations.append(location)
+        munro = Munro(row['name'], row['height'], row['id'])
+        munros.append(munro)
         
     return munros

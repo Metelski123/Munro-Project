@@ -20,10 +20,10 @@ climber_repository.save(climber2)
 climber3 = Climber('Jimmy Saville')
 climber_repository.save(climber3)
 
-munro1 = Munro('Ben Nevis', '1345m')
+munro1 = Munro('Ben Nevis', 1345)
 munro_repository.save(munro1)
 
-munro2 = Munro('Ben Macdui', '1309m')
+munro2 = Munro('Ben Macdui', 1309)
 munro_repository.save(munro2)
 
 bag1 = Bag(climber1, munro1, 'great climb, enjoyed it')

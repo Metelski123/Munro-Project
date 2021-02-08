@@ -1,7 +1,7 @@
 from db.run_sql import run_sql
 from models.bag import Bag
 import repositories.climber_repository as climber_repository
-import repositories.munro_repository as climber_repository
+import repositories.munro_repository as munro_repository
 
 def save(bag):
     sql = "INSERT INTO bags ( climber_id, munro_id, review ) VALUES ( %s, %s, %s ) RETURNING id"

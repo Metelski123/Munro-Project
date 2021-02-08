@@ -3,11 +3,10 @@ from models.munro import Munro
 from models.climber import Climber
 
 def save(munro):
-    sql = "INSERT INTO munros(name, height, duration) VALUES ( %s, %s, %s ) RETURNING id"
-    values = [munro.name, munro.category]
+    sql = "INSERT INTO munros(name, height) VALUES ( %s, %s ) RETURNING id"
+    values = [munro.name, munro.height]
     results = run_sql( sql, values )
     munro.id = results[0]['id']
-    return munro
 
 
 def select_all():
@@ -17,7 +16,7 @@ def select_all():
     results = run_sql(sql)
 
     for row in results:
-        munro = Munros(row['name'], row['height'], row['id'])
+        munro = Munro(row['name'], row['height'], row['id'])
         munros.append(munro)
     return munros
 
@@ -29,7 +28,7 @@ def select(id):
     result = run_sql(sql, values)[0]
 
     if result is not None:
-        munro = Munros(result['name'], result['height'], result['id'] )
+        munro = Munro(result['name'], result['height'], result['id'] )
     return munro
 
 
@@ -40,7 +39,7 @@ def delete_all():
 def climbers(munro):
     climbers = []
     
-    sql = "SELECT climbers.* FROM climbers INNER JOIN bags ON bag.climber_id = climbers.id WHERE munro_id = %s"
+    sql = "SELECT climbers.* FROM climbers INNER JOIN bags ON bags.climber_id = climbers.id WHERE munro_id = %s"
     values = [munro.id]
     results = run_sql(sql, values)
 

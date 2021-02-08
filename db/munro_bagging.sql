@@ -5,12 +5,12 @@ DROP TABLE munros;
 CREATE TABLE munros (
   id SERIAL PRIMARY KEY,
   name VARCHAR(255),
-  height INT,
+  height INT
 );
 
 CREATE TABLE climbers (
   id SERIAL PRIMARY KEY,
-  name VARCHAR(255),
+  name VARCHAR(255)
 );
 
 CREATE TABLE bags (
