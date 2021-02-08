@@ -27,241 +27,241 @@ munro2 = Munro('Ben Macdui', 1309)
 munro_repository.save(munro2)
 
 munro3 = Munro('Braeriach', 1296)
-munro_repository.save(munro1)
+munro_repository.save(munro3)
 
 munro4 = Munro('Cairn Toul', 1261)
-munro_repository.save(munro2)
+munro_repository.save(munro4)
 
 munro5 = Munro('Sgor an Lochain Uaine', 1258)
-munro_repository.save(munro1)
+munro_repository.save(munro5)
 
 munro6 = Munro('Cairn Gorm', 1245)
-munro_repository.save(munro2)
+munro_repository.save(munro6)
 
 munro7 = Munro('Aonach Beag', 1234)
-munro_repository.save(munro1)
+munro_repository.save(munro7)
 
 munro8 = Munro('Aonach Mor', 1221)
-munro_repository.save(munro2)
+munro_repository.save(munro8)
 
 munro9 = Munro('Carn Mor Dearg', 1220)
-munro_repository.save(munro1)
+munro_repository.save(munro9)
 
 munro10 = Munro('Ben Lawers', 1214)
-munro_repository.save(munro2)
+munro_repository.save(munro10)
 
 munro11 = Munro('Beinn a Bhuird', 1197)
-munro_repository.save(munro1)
+munro_repository.save(munro11)
 
 munro12 = Munro('Carn Eige', 1183)
-munro_repository.save(munro2)
+munro_repository.save(munro12)
 
 munro13 = Munro('Beinn Mheadhoin', 1182)
-munro_repository.save(munro1)
+munro_repository.save(munro13)
 
 munro14 = Munro('Mam Sodhail', 1181)
-munro_repository.save(munro2)
+munro_repository.save(munro14)
 
 munro15 = Munro('Stob Choire Claurigh', 1177)
-munro_repository.save(munro1)
+munro_repository.save(munro15)
 
 munro16 = Munro('Ben More', 1174)
-munro_repository.save(munro2)
+munro_repository.save(munro16)
 
 munro17 = Munro('Ben Avon', 1171)
-munro_repository.save(munro1)
+munro_repository.save(munro17)
 
 munro18 = Munro('Stob Binnein', 1165)
-munro_repository.save(munro2)
+munro_repository.save(munro18)
 
 munro19 = Munro('Beinn Bhrotain', 1157)
-munro_repository.save(munro1)
+munro_repository.save(munro19)
 
 munro20 = Munro('Derry Cairngorm', 1309)
-munro_repository.save(munro2)
+munro_repository.save(munro20)
 
 munro21 = Munro('Lochnagar', 1155)
-munro_repository.save(munro1)
+munro_repository.save(munro21)
 
 munro22 = Munro('gurr nan Ceathreamhnan', 1151)
-munro_repository.save(munro2)
+munro_repository.save(munro22)
 
 munro23 = Munro('Bidean nam Bian', 1150)
-munro_repository.save(munro1)
+munro_repository.save(munro23)
 
 munro24 = Munro('Sgurr na Lapaich', 1150)
-munro_repository.save(munro2)
+munro_repository.save(munro24)
 
 munro25 = Munro('Ben Alder', 1148)
-munro_repository.save(munro1)
+munro_repository.save(munro25)
 
 munro26 = Munro('Geal Charn Alder', 1132)
-munro_repository.save(munro2)
+munro_repository.save(munro26)
 
 munro27 = Munro('Ben Lui', 1130)
-munro_repository.save(munro1)
+munro_repository.save(munro27)
 
 munro28 = Munro('Binnein Mor', 1130)
-munro_repository.save(munro2)
+munro_repository.save(munro28)
 
 munro29 = Munro('Creag Meagaidh', 1330)
-munro_repository.save(munro1)
+munro_repository.save(munro29)
 
 munro30 = Munro('An Riabhachan', 1129)
-munro_repository.save(munro2)
+munro_repository.save(munro30)
 
 munro31 = Munro('Ben Cruachan', 1126)
-munro_repository.save(munro1)
+munro_repository.save(munro31)
 
 munro32 = Munro('Carn nan Gabhar', 1121)
-munro_repository.save(munro2)
+munro_repository.save(munro32)
 
 munro33 = Munro('A-Chralaig', 1120)
-munro_repository.save(munro1)
+munro_repository.save(munro33)
 
 munro34 = Munro('An Stuc', 1118)
-munro_repository.save(munro2)
+munro_repository.save(munro34)
 
 munro35 = Munro('Carn a-Choire Bhoidheach', 1118)
-munro_repository.save(munro1)
+munro_repository.save(munro35)
 
 munro36 = Munro('Meall Garbh- Ben Lawers', 1118)
-munro_repository.save(munro2)
+munro_repository.save(munro36)
 
 munro37 = Munro('Sgor Gaoith', 1118)
-munro_repository.save(munro1)
+munro_repository.save(munro37)
 
 munro38 = Munro('Aonach Beag - Alder', 1116)
-munro_repository.save(munro2)
+munro_repository.save(munro38)
 
 munro39 = Munro('Stob Coire an Laoigh', 1116)
-munro_repository.save(munro1)
+munro_repository.save(munro39)
 
 munro40 = Munro('Stob Coire Easain', 1115)
-munro_repository.save(munro2)
+munro_repository.save(munro40)
 
 munro41 = Munro('Monadh Mor', 1113)
-munro_repository.save(munro1)
+munro_repository.save(munro41)
 
 munro42 = Munro('Tom a-Choinich', 1112)
-munro_repository.save(munro2)
+munro_repository.save(munro42)
 
 munro43 = Munro('Sgurr Mor', 1110)
-munro_repository.save(munro1)
+munro_repository.save(munro43)
 
 munro44 = Munro('Sgurr nan Conbhairean', 1109)
-munro_repository.save(munro2)
+munro_repository.save(munro44)
 
 munro45 = Munro('Meall a-Bhuiridh', 1108)
-munro_repository.save(munro1)
+munro_repository.save(munro45)
 
 munro46 = Munro('Stoba-Choire Mheadhoin', 1106)
-munro_repository.save(munro2)
+munro_repository.save(munro46)
 
 munro47 = Munro('Beinn Ghlas', 1103)
-munro_repository.save(munro1)
+munro_repository.save(munro47)
 
 munro48 = Munro('Beinn Eibhinn', 1102)
-munro_repository.save(munro2)
+munro_repository.save(munro48)
 
 munro49 = Munro('Mullach Fraoch-choire', 1102)
-munro_repository.save(munro1)
+munro_repository.save(munro49)
 
 munro50 = Munro('Creise', 1100)
-munro_repository.save(munro2)
+munro_repository.save(munro50)
 
 munro51 = Munro('Sgurr a-Mhaim', 1099)
-munro_repository.save(munro1)
+munro_repository.save(munro51)
 
 munro52 = Munro('Sgurr Choinnich Mor', 1094)
-munro_repository.save(munro2)
+munro_repository.save(munro52)
 
 munro53 = Munro('Sgurr nan Clach Geala', 1093)
-munro_repository.save(munro1)
+munro_repository.save(munro53)
 
 munro54 = Munro('Bynack More', 1090)
-munro_repository.save(munro2)
+munro_repository.save(munro54)
 
 munro55 = Munro('Stob Ghabhar', 1090)
-munro_repository.save(munro1)
+munro_repository.save(munro55)
 
 munro56 = Munro('Beinn a-Chlachair', 1087)
-munro_repository.save(munro2)
+munro_repository.save(munro56)
 
 munro57 = Munro('Beinn Dearg - Ullapool', 1084)
-munro_repository.save(munro1)
+munro_repository.save(munro57)
 
 munro58 = Munro('Schiehallion', 1083)
-munro_repository.save(munro2)
+munro_repository.save(munro58)
 
 munro59 = Munro('Sgurr a-Choire Ghlais', 1083)
-munro_repository.save(munro1)
+munro_repository.save(munro59)
 
 munro60 = Munro('Beinn a Chaorainn - Cairngorms', 1082)
-munro_repository.save(munro2)
+munro_repository.save(munro60)
 
 munro61 = Munro('Beinn a-Chreachain', 1082)
-munro_repository.save(munro1)
+munro_repository.save(munro61)
 
 munro62 = Munro('Beinn Heasgarnich', 1078)
-munro_repository.save(munro2)
+munro_repository.save(munro62)
 
 munro63 = Munro('Ben Starav', 1078)
-munro_repository.save(munro1)
+munro_repository.save(munro63)
 
 munro64 = Munro('Beinn Dorain', 1076)
-munro_repository.save(munro2)
+munro_repository.save(munro64)
 
 munro65 = Munro('Stob Coire Sgreamhach', 1072)
-munro_repository.save(munro1)
+munro_repository.save(munro65)
 
 munro66 = Munro('Braigh Coire Chruinn-bhalgain', 1070)
-munro_repository.save(munro2)
+munro_repository.save(munro66)
 
 munro67 = Munro('An Socach - Mullardoch', 1069)
-munro_repository.save(munro1)
+munro_repository.save(munro67)
 
 munro68 = Munro('Meall Corranaich', 1069)
-munro_repository.save(munro2)
+munro_repository.save(munro68)
 
 munro69 = Munro('Glas Maol', 1068)
-munro_repository.save(munro1)
+munro_repository.save(munro69)
 
 munro70 = Munro('Sgurr Fhuaran', 1067)
-munro_repository.save(munro2)
+munro_repository.save(munro70)
 
 munro71 = Munro('Cairn of Claise', 1064)
-munro_repository.save(munro1)
+munro_repository.save(munro71)
 
 munro72 = Munro('Bidein a-Ghlas Thuill - An Teallach', 1062)
-munro_repository.save(munro2)
+munro_repository.save(munro72)
 
 munro73 = Munro('Sgurr Fiona - An Teallach', 1060)
-munro_repository.save(munro1)
+munro_repository.save(munro73)
 
 munro74 = Munro('Na Gruagaichean', 1056)
-munro_repository.save(munro2)
+munro_repository.save(munro74)
 
 munro75 = Munro('Spidean a-Choire Leith - Liathach', 1055)
-munro_repository.save(munro1)
+munro_repository.save(munro75)
 
 munro76 = Munro('Stob Poite Coire Ardair', 1054)
-munro_repository.save(munro2)
+munro_repository.save(munro76)
 
 munro77 = Munro('Toll Creagach', 1054)
-munro_repository.save(munro1)
+munro_repository.save(munro77)
 
 munro78 = Munro('Sgurr a-Chaorachain', 1053)
-munro_repository.save(munro2)
+munro_repository.save(munro78)
 
 munro79 = Munro('Glas Tulaichean', 1051)
-munro_repository.save(munro1)
+munro_repository.save(munro79)
 
 munro80 = Munro('Beinn a-Chaorainn - Glen Spean', 1050)
-munro_repository.save(munro2)
+munro_repository.save(munro80)
 
 munro81 = Munro('Geal Charn', 1049)
-munro_repository.save(munro1)
+munro_repository.save(munro81)
 
 munro82 = Munro('Sgurr Fhuar-thuill', 1049)
 munro_repository.save(munro82)
