@@ -2,7 +2,7 @@ body {
     background: url('/static/images/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    color: #F6F4F3;
+    color: black;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     padding: 0px;
     margin: 0px;
@@ -16,17 +16,17 @@ body {
   
   h1 {
     font-size: 1.8em;
-    color: #E1DABD;
+    color: black;
     margin-bottom: 20px;
   }
   
   a, a:link, a:visited {
-    color: #0094C6;
+    color: lightgray;
     text-decoration: none;
   }
   
   a:hover, a:active, a:focus {
-    color: #8EE3EF;
+    color: white;
   }
   
   nav {
