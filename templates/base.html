@@ -9,11 +9,7 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='css/forms.css') }}">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/tables.css') }}">
-  
-</head>
-<body>
-<main class="flex flex--row">
-  <nav>
+  <nav class="flex flex--row">
     <ul>
       <li>
         <a href="/munros">Munros</a>
@@ -25,7 +21,23 @@
         <a href="/bags">Bags</a>
       </li>
     </ul>
-</nav>
+  </nav>
+</head>
+<body>
+<main>
+  <!-- <nav>
+    <ul>
+      <li>
+        <a href="/munros">Munros</a>
+      </li>
+      <li>
+        <a href="/climbers">Climbers</a>
+      </li>
+      <li>
+        <a href="/bags">Bags</a>
+      </li>
+    </ul>
+</nav> -->
   <section id="content">
       {% block content %}
 

@@ -4,8 +4,8 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    padding: 0px;
-    margin: 0px;
+    padding: 100px;
+    margin: auto;
   }
 
   
@@ -22,7 +22,7 @@ body {
   }
   
   a, a:link, a:visited {
-    color: darkgreen;
+    color: darkolivegreen;
     text-decoration: none;
   }
   
@@ -32,7 +32,7 @@ body {
   
   nav {
     padding: 0px;
-    margin: 0px;
+    margin: 10px;
     padding-right: 100px;
   }
   
@@ -52,7 +52,8 @@ body {
   
   main {
     padding: 25px;
-
+    max-width: 500px;
+    margin: auto;
   }
   
   .flex {

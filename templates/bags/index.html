@@ -3,10 +3,10 @@
 {% block content %}
 <h1>Bags</h1>
 
-<p class="btn--wrapper">
-  <a class="btn btn--action" href="/bags/new">New bag</a>
-</p>
-
+<!-- <p class="btn--wrapper"> -->
+  <p>
+   <a class="a.button3" href="/bags/new">New bag</a>
+  </p> 
 <ul>
   {% for bag in bags %}
   <li>
@@ -14,8 +14,8 @@
   <p>"<i>{{bag.review}}</i>"</p>
     <p>
       <form action="/bags/{{ bag.id }}/delete" method="POST">
-        <!-- <input class="button3" type="submit" value="delete" /> -->
-        <a href="{{ url_for('static', filename='css/buttons.css') }}" class="button3">Delete</a>
+        <input class="button3" type='submit' value="DELETE">
+        <!-- <a href="{{ url_for('static', filename='css/buttons.css') }}" class="button3">Delete</a> -->
       </form>
     </p>
   </li>
