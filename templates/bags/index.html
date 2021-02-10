@@ -14,7 +14,8 @@
   <p>"<i>{{bag.review}}</i>"</p>
     <p>
       <form action="/bags/{{ bag.id }}/delete" method="POST">
-        <input class="btn btn--danger" type="submit" value="delete" />
+        <!-- <input class="button3" type="submit" value="delete" /> -->
+        <a href="{{ url_for('static', filename='css/buttons.css') }}" class="button3">Delete</a>
       </form>
     </p>
   </li>
