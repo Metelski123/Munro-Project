@@ -15,3 +15,14 @@ def show(id):
     climber = climber_repository.select(id)
     munros = climber_repository.munros(climber)
     return render_template("climbers/show.html", climber=climber, munros=munros)
+
+@climbers_blueprint.route("/climbers/new")
+def new_climber():
+    return render_template("climbers/new.html")
+
+@climbers_blueprint.route("/climbers",  methods=['POST'])
+def create_climber():
+    name = request.form['name']
+    climber = Climber(name)
+    climber_repository.save(climber)
+    return redirect('/climbers')
