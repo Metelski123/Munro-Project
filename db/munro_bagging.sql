@@ -5,7 +5,9 @@ DROP TABLE munros;
 CREATE TABLE munros (
   id SERIAL PRIMARY KEY,
   name VARCHAR(255),
-  height INT
+  height INT,
+  description TEXT,
+  region VARCHAR(255)
 );
 
 CREATE TABLE climbers (
