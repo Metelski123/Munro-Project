@@ -36,6 +36,7 @@ def delete_all():
     sql = "DELETE FROM climbers"
     run_sql(sql)
 
+
 def munros(climber):
     munros = []
 

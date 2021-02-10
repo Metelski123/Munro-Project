@@ -26,3 +26,4 @@ def create_climber():
     climber = Climber(name)
     climber_repository.save(climber)
     return redirect('/climbers')
+

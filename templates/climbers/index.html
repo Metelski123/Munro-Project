@@ -14,4 +14,13 @@
   </tr>
   {% endfor %}
 </table>
+
+<h3>Add a climber</h3>
+<form action="/climbers" method="post">
+  <label for="name">Climber name:</label>
+  <input type="text" id="name" name="name">
+  
+  <input class="btn btn--action" type='submit' value="submit">
+</form>
+
 {% endblock %}
