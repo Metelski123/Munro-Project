@@ -1,13 +1,13 @@
 body {
     background: url('/static/images/background.jpg');
-    background-repeat: no-repeat;
     background-position: fixed;
+    background-repeat: no-repeat;
     background-size: 100%;
-    color: black;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     padding: 0px;
     margin: 0px;
   }
+
   
   h1, h2, h3, h4, h5, h6 {
     font-family: "Lucida Console", Monaco, monospace;
@@ -33,22 +33,25 @@ body {
   nav {
     padding: 0px;
     margin: 0px;
-    padding-right: 0px;
+    padding-right: 100px;
   }
   
   nav ul li {
     margin-bottom: 15px;
-    text-transform: uppercase;
+    text-transform: capitalize;
+    display: inline;
+    padding: 10px;
   }
   
   ul {
     padding: 0px;
     margin: 0px;
     list-style-type: none;
+    display: inline;
   }
   
   main {
-    padding: 200px;
+    padding: 25px;
 
   }
   
@@ -63,5 +66,5 @@ body {
   #content {
     /* border-left: 1px solid #254E70; */
     border-top: black;
-    padding-top: 25px;
+    padding-top: 20px;
   }

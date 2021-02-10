@@ -1,5 +1,6 @@
 td, th {
     text-align: left;
+    width: auto;
   }
   
   td {
@@ -8,9 +9,16 @@ td, th {
   
   th {
     padding: 0px 20px 10px 0px;
-    border-bottom: 1px solid papayawhip;
+    border-bottom: 1px solid black;
   }
   
   table {
     border-collapse: collapse;
+  }
+
+
+  .scrollable-table{
+    height: 60vh;
+    display: block;
+    overflow-y: scroll;
   }

@@ -20,20 +20,24 @@ climber_repository.save(climber2)
 climber3 = Climber('John Candy')
 climber_repository.save(climber3)
 
-description1 = ''
+description1 = 'The highest mountain in Britain, Ben Nevis certainly attracts the crowds, with hordes of trippers toiling up the long and punishing stony ascent to the summit in the summer months. The North Face, on the other hand, presents a very different prospect, its towering precipices and narrow gullies making up one of the most celebrated rock and ice climbing arenas in the country.'
 munro1 = Munro('Ben Nevis', 1345, description1, 'Fort William')
 munro_repository.save(munro1)
 
-munro2 = Munro('Ben Macdui', 1309)
+description2 = 'The second highest mountain in Britain, Ben Macdui is in the centre of the arctic-like Cairngorms plateau - a much wilder place than Ben Nevis. Climbed equally frequently from both Deeside and Speyside, the summit is said to be haunted by the wraith-like Old Grey Man.'
+munro2 = Munro('Ben Macdui', 1309, description2, 'Cairngorms')
 munro_repository.save(munro2)
 
-munro3 = Munro('Braeriach', 1296)
+description3 = 'The third highest mountain in Britain, Braeriach is perhaps the finest of the Cairngorms. Reaching its vast summit plateau requires a long approach walk - this remains a truly wild place - whilst all around the plateau are a vast range of dramatic and beautiful corries.'
+munro3 = Munro('Braeriach', 1296, description3, 'Cairngorms')
 munro_repository.save(munro3)
 
-munro4 = Munro('Cairn Toul', 1261)
+description4 = 'Cairn Toul is the most shapely of the high Cairngorms, rising as a giant sentinel above the infant River Dee. It is in a very wild and remote position and many walkers will need an overnight trip to climb it, whether from Deeside or Speyside.'
+munro4 = Munro('Cairn Toul', 1261, description4, 'Cairngorms')
 munro_repository.save(munro4)
 
-munro5 = Munro('Sgor an Lochain Uaine', 1258)
+description5 = 'Sgor an Lochain Uaine (also known as Angels Peak) was promoted to full Munro status in 1997. It is an extremely remote mountain at the heart of the Cairngorms. The fine summit, a twin to Cairn Toul, overlooks the magnificent Garbh Choire.'
+munro5 = Munro('Sgor an Lochain Uaine', 1258, description5, 'Cairngorms')
 munro_repository.save(munro5)
 
 munro6 = Munro('Cairn Gorm', 1245)
@@ -411,7 +415,8 @@ munro_repository.save(munro129)
 munro130 = Munro('Sgurr an Lochain', 1004)
 munro_repository.save(munro130)
 
-munro131 = Munro('The Devils Point', 1004)
+description131 = 'The Devils Point is a bare pyramid of rock which guards the entrance to the Lairig Ghru from the south. From other directions its true nature as the southern termination of Cairn Toul is more apparent.'
+munro131 = Munro('The Devils Point', 1004, description131, 'Cairngorms')
 munro_repository.save(munro131)
 
 munro132 = Munro('Sgurr Mor - Loch Quoich', 1003)
@@ -504,7 +509,8 @@ munro_repository.save(munro160)
 munro161 = Munro('Gulvain', 987)
 munro_repository.save(munro161)
 
-munro162 = Munro('Inaccessible Pinnacle', 986)
+description162 = 'The Inaccessible Pinnacle (often abbreviated to the In Pinn) is the second highest summit in the Skye Cuillin. It is notorious as the most difficult of the Munros, requiring a rock-climb and an abseil (and suitable experience or help from an expert) to complete the ascent. It rises from the summit of Sgurr Dearg.'
+munro162 = Munro('Inaccessible Pinnacle', 986, description162, 'Isle of Skye')
 munro_repository.save(munro162)
 
 munro163 = Munro('Lurg Mhor', 986)
@@ -723,7 +729,8 @@ munro_repository.save(munro233)
 munro234 = Munro('Luinne Bheinn', 939)
 munro_repository.save(munro234)
 
-munro235 = Munro('Mount Keen', 939)
+description235 = 'Mount Keen is the most easterly of the Munros, a cone-shaped summit rearing above the great sea of the Mounth plateau. It can be climbed quickly from Glen Esk, or more scenically via Glen Tanar.'
+munro235 = Munro('Mount Keen', 939, description235, 'Angus')
 munro_repository.save(munro235)
 
 munro236 = Munro('Mullach nan Coirean', 939)

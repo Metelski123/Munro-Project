@@ -4,11 +4,14 @@
 <h1>Munros</h1>
 
 <table>
+  <thead>
   <tr>
     <th>Name</th>
     <th></th>
     <th>Height</th>
   </tr>
+</thead>
+  <tbody class="scrollable-table">
   {% for munro in munros %}
   <tr>
     <td><a href="/munros/{{ munro.id }}"> {{munro.name}} </a></td>
@@ -16,5 +19,6 @@
     <td>{{ munro.height }}m</td>
   </tr>
   {% endfor %}
+</tbody>
 </table>
 {% endblock %}
